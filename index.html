@@ -9,49 +9,51 @@
 </head>
 
 <body>
-  <header>
-    <div class="nav-brand">
-      <h3>Speedify</h3>
-    </div>
-    <nav>
-      <ul class="nav-links">
-        <li>
-          <a class="nav-links" href="#">Home</a>
-        </li>
-        <li>
-          <a class="nav-links" href="#">About</a>
-        </li>
-        <li>
-          <a class="nav-links" href="#">FAQs</a>
-        </li>
-        <li>
-          <a class="nav-links" href="#">Data Plans</a>
-        </li>
-        <li>
-          <a class="nav-links" href="#">Products & Services</a>
-        </li>
-        <li>
-          <a class="nav-links" href="#">Modems</a>
-        </li>
-        <li>
-          <a class="nav-links" href="#">Contact Us</a>
-        </li>
-      </ul>
+  <header class="l-header" id="header">
+    <nav class="nav bd-container">
+      <a href="index.html" class="nav-logo">Speedify</a>
+        <div class="nav-menu" id="nav-menu">
+          <ul class="nav-list">
+            <li class="nav-item"><a href="#home" class="nav-link active-link">Home</a></li>
+            <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+            <li class="nav-item"><a href="#faqs" class="nav-link">FAQs</a></li>
+            <li class="nav-item"><a href="#data-plans" class="nav-link">Data Plans</a></li>
+            <li class="nav-item"><a href="#products" class="nav-link">Products & Services</a></li>
+            <li class="nav-item"><a href="#modems" class="nav-link">Modems</a></li>
+            <li class="nav-item"><a href="#contact" class="nav-link">Contact Us</a></li>
+            
+            <li>
+              <ion-icon name="contrast-outline" class="change-theme" id="theme-button"></ion-icon>
+            </li>
+        </ul>
+      </div>
+
+      <div class="nav-toggle" id="nav-toggle">
+        <ion-icon name="menu-sharp"></ion-icon>
+      </div>
     </nav>
-    <div class="menu">
-      <ion-icon name="menu-outline"></ion-icon>
-    </div>
   </header>
-  
+    
   <main>
-    <section class="hero" id="hero">
-       <h1>Enhance your Internet Speed</h1>
-       <p>Speedify service gives you a faster internet speed to get all your task done in seconds without having to wait for low internet.. With this internet your official assignment becomes too easy to accomplish. We care so much about your internet speed and hence we are introducing speedify to make you work faster.</p>
-      <div class="btn-group">
-        <a href="demo-cta">View Demo</a>
-        <a href="pricing-cta">View Pricing</a>
+    <section class="home" id="home">
+      <div class="home-container bd-container bd-grid">
+        <div class="home-data">
+          <h1 class="home-title">Enhance your Internet Speed</h1>
+          <p class="home-subtitle">Speedify service gives you a faster internet speed to get all your task done in seconds without having to wait for low internet.. With this internet your official assignment becomes too easy to accomplish. We care so much about your internet speed and hence we are introducing speedify to make you work faster.
+          </p>
+          <div class="btn-group">
+            <a href="demo-cta">View Demo</a>
+            <a href="pricing-cta">View Pricing</a>
+          </div>
+        </div>
+    
+        <img src="assets/img/home.png" alt="" class="home-img">
       </div>
     </section>
+
+
+
+
   </main>
   
   
