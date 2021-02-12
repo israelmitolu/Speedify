@@ -78,7 +78,7 @@ body.dark-theme{
   position: absolute;
   right: 1rem;
   top: 1.8rem;
-  color: var(--text-color);
+  color: var(--text-color-primary);
   font-size: 1rem;
   cursor: pointer;
 }
@@ -143,7 +143,7 @@ ion-icon{
   top: 0;
   left: 0;
   z-index: var(--z-fixed);
-  background-color: var(--bg-secondary);
+  background-color: rgba(3, 13, 66, 1);
 }
 
 /*========== NAV ==========*/
@@ -209,6 +209,8 @@ ion-icon{
 /* Change background header */
 .scroll-header{
   box-shadow: 0 2px 4px rgba(0,0,0,.1);
+  background: var(--bg-secondary);
+  transition: 1s;
 }
 
 /* Scroll top */
@@ -322,7 +324,7 @@ ion-icon{
 }
 /******** About us ***********/
 .about-data{
-  text-align: center;
+  text-align: left;
 }
 
 .about-description{
