@@ -61,7 +61,7 @@ body{
   margin: var(--header-height) 0 0 0;
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
-  background-color: var(--bg-primary);
+  background-color: var(--bg-secondary);
   color: var(--text-color-primary);
   line-height: 1.6;
 }
@@ -112,7 +112,7 @@ ion-icon{
 }
 
 .section-title{
-  font-size: var(--h1-font-size);
+  font-size: var(--h2-font-size);
   color: var(--text-color-primary);
   margin-bottom: var(--mb-3);
 }
@@ -143,7 +143,7 @@ ion-icon{
   top: 0;
   left: 0;
   z-index: var(--z-fixed);
-  background-color: var(--bg-primary);
+  background-color: var(--bg-secondary);
 }
 
 /*========== NAV ==========*/
@@ -163,7 +163,7 @@ ion-icon{
     width: 100%;
     padding: 1.5rem 0 1rem;
     text-align: center;
-    background-color: var(--bg-primary);
+    background-color: var(--bg-secondary);
     transition: .4s;
     box-shadow: 0 4px 4px rgba(0,0,0,.1);
     border-radius: 0 0 1rem 1rem;
@@ -220,7 +220,7 @@ ion-icon{
   justify-content: center;
   align-items: center;
   padding: .3rem;
-  background: rgba(6,156,84,.5);
+  background: var(--bg-secondary);
   border-radius: .4rem;
   z-index: var(--z-tooltip);
   transition: .4s;
@@ -229,11 +229,12 @@ ion-icon{
 
 .scrolltop:hover{
   background-color: var(--bg-secondary);
+  color: var(--footer-bg);
 }
 
 .scrolltop-icon{
   font-size: 1.8rem;
-  color: var(--bg-primary);
+  color: var(--footer-link-color);
 }
 
 /* Show scrolltop */
@@ -315,7 +316,7 @@ ion-icon{
   margin-bottom: var(--mb-3);
 }
 .card-img{
-  width: 1.5rem;
+  width: rem;
   height: 2rem;
   max-width: 100%;
 }
