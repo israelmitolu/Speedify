@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap');
 
 /*===== VARIABLES CSS =====*/
 :root {
@@ -14,7 +14,7 @@
   --footer-link-color: #889ab4;
 
   /*========== Font and typography ==========*/
-  --body-font: 'Poppins', sans-serif;
+  --body-font: 'Raleway', sans-serif;
   --biggest-font-size: 2rem;
   --h2-font-size: 1.25rem;
   --h3-font-size: 1.125rem;
@@ -24,6 +24,7 @@
   /*========== Font weight ==========*/
   --font-semi-bold: 600;
   --font-bold: 700;
+  --font-medium: 400;
 
   /*========== Margenes ==========*/
   --mb-1: .5rem;
@@ -87,6 +88,11 @@ h1,h2,h3{
   font-weight: var(--font-semi-bold);
   color: var(--title-color);
 }
+h4{
+  font-weight: var(--font-semi-bold);
+  font-size: var(--normal-font-size); 
+  padding-bottom: 0px;
+}
 ul{
   padding: 0;
   list-style: none;
@@ -114,7 +120,7 @@ ion-icon{
 .section-title{
   font-size: var(--h2-font-size);
   color: var(--text-color-primary);
-  margin-bottom: var(--mb-3);
+  margin-bottom: var(--mb-1);
 }
 
 .section-subtitle{
@@ -301,7 +307,7 @@ ion-icon{
   justify-content: space-evenly; 
   align-items: center; 
   flex-wrap: wrap; 
-  margin: var(--mb-1) auto var(--mb-2) auto;
+  margin: var(--mb-2) auto var(--mb-2) auto;
 }
 .card{
   max-width: 85%;
@@ -315,7 +321,7 @@ ion-icon{
   text-align: center; 
   justify-content: center; 
   align-items: center;
-  margin-bottom: var(--mb-3);
+  margin: var(--mb-3) auto;
 }
 .card-img{
   width: rem;
@@ -335,4 +341,7 @@ ion-icon{
   width: 280px;
   border-radius: .5rem;
   justify-self: center;
+}
+.about-initial{
+  text-align: initial;
 }
