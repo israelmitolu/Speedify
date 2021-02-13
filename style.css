@@ -291,7 +291,13 @@ ion-icon{
   background: var(--main-color);
   color: white; 
   padding: .5rem 2rem;
+  transition: .4s;
 }
+.demo-cta:hover {
+  letter-spacing: 3px;
+  transition: .4s;
+}
+
 .pricing-cta{
   background: transparent;
   padding: .5rem 2rem;
@@ -344,4 +350,57 @@ ion-icon{
 }
 .about-initial{
   text-align: initial;
+}
+.footer{
+  padding: var(--mb-3); 
+  background-color: var(--footer-bg); 
+}
+.footer-container{
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  row-gap: 2rem;
+}
+
+.footer-logo{
+  font-size: var(--h3-font-size);
+  color: var(--bg-primary);
+  font-weight: var(--font-semi-bold);
+}
+
+.footer-description{
+  display: block;
+  font-size: var(--small-font-size);
+  margin: .25rem 0 var(--mb-3);
+  color: var(--bg-secondary)
+}
+
+.footer-social{
+  font-size: 1.5rem;
+  color: var(--bg-secondary);
+  margin-right: var(--mb-2);
+}
+
+.footer-title{
+  font-size: var(--h2-font-size);
+  color: #fff;
+  margin-bottom: var(--mb-2);
+}
+
+.footer-link{
+  display: inline-block;
+  color: var(--footer-link-color);
+  margin-bottom: var(--mb-1);
+}
+
+.footer-link:hover{
+  color: var(--text-color-primary);
+}
+
+.footer-copy{
+  text-align: center;
+  font-size: var(--small-font-size);
+  color: var(--footer-link-color);
+  margin-top: 3.5rem;
+}
+.footer-content ul li{
+  color: var(--footer-link-color);
 }
