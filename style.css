@@ -67,7 +67,7 @@ body{
   line-height: 1.6;
 }
 
-body.dark-theme{
+body .dark-theme{
   --title-color: #F1F3F2;
   --text-color: #C7D1CC;
   --body-color: #1D2521;
